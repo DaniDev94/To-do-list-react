@@ -1,10 +1,10 @@
 import React from "react";
 
-export function TodoList({ todos }) {
+export function TodoList({ list }) {
     return (
         <ul>
-            {todos.map((todo) => (
-                <li>Tarea</li>
+            {list.map((todo) => (
+                <li>{todo.task}</li>
             ))}
         </ul>
     )
