@@ -12,4 +12,4 @@ import { App } from './App';
 
 //Con reactDom añadiendo el componente app (contiene toda nuestra aplicación)
 
-reactDom.render(<App/>, document.getElementById('root'))
+reactDom.render(<React.StrictMode><App/></React.StrictMode>, document.getElementById('root'))
